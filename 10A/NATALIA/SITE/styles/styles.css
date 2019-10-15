@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+h1{
+    color: rgb(18, 187, 187);
+    font-size: 54px;
+    background-color: steelblue;
+    font-family:'Mansalva', cursive;
+    
+}
+
+p {
+    color: royalblue
+}
+
+img {
+width: 200px;
+height: 200px;
+
+border-radius: 20%;
+box-shadow: 10px 10px 10px grey
+}

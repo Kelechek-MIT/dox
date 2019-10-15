@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+
+h1{
+    color: greenyellow;
+    font-size: 54px;
+    background-color: goldenrod
+    font-family: 'Mansalva', cursive;
+}
+
+p {
+    color: blue;
+}
+
+img {
+width: 200px;
+height: 200px;
+
+border-radius: 50%;
+box-shadow: 10px 10px 10px gold;
+}
