@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+h1{
+    color:aqua;
+    font-size: 54px;
+    background-color: darkseagreen;
+    font-family:'Mansalva', cursive;
+}
+
+p {
+    color:peru
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    box-shadow: 10px 10px 20px grey
+}

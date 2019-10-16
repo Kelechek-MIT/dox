@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+h1{
+    color:rgb(250, 233, 249);
+    font-size: 50px;
+    background-color: rgb(31, 29, 32);
+    font-family:'Big Shoulders Display', cursive;
+}
+
+p {
+    color:rgb(219, 204, 228)
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    box-shadow: 10px 10px 20px rgb(204, 172, 219)
+}
+
+.ddd {
+    border-radius: 50%;
+}
