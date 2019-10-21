@@ -1,6 +1,7 @@
 body{
     
     text-align: center;
+    background-color: aquamarine
 }
 
 .mh {
@@ -17,7 +18,17 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+   transition: all 0.5s ease;
     
+}
+.cover:hover{
+    height:400px; 
+    background: url(../images/cover — копия.jpg) ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transform: scale(1.2)
 }
 .block {
     font-size: 100px;
@@ -46,7 +57,13 @@ ul li {
 
     border-radius: 50%;
     box-shadow: 10px 10px 20px grey;
-
+    transition: width 20s, height 40s transform 2s;
+}
+.ava:hover{
+   width: 100px;
+   transform: rotate(180deg);
+   height: 300px
+}
 }
 p {
     margin: 10px;
