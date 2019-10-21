@@ -4,7 +4,7 @@ body{
 }
 
 .mh {
-    font-family: 'Open Sans Condensed', cursive;
+    font-family: 'Mansalva', cursive;
     font-size: 100px;
     text-shadow: 4px 4px 30px rgb(121, 92, 92);
     margin-top: 0;
@@ -12,7 +12,7 @@ body{
 .cover{
     
     height:400px; 
-    background: url(../images/cover.jpg) ; 
+    background: url(../images/10.jpg) ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,7 +36,7 @@ ul li {
 }
 .ava {
     position: relative;
-    top: -100px;
+    top: -400px;
 
     display: block;
     margin: 0 auto;
@@ -44,10 +44,24 @@ ul li {
     width: 400px;
     height: 400px;
 
-    border-radius: 50%;
-    box-shadow: 10px 10px 20px grey;
+    border-radius: 0%;
+    box-shadow: 10px 10px 20px purple;
 
 }
 p {
     margin: 10px;
 }
+.nont { 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    margin: 0 auto
+    text-outline: -200px;
+
+}
+.edge {
+    right:100px
+    
+}
+.ded {
+    left:100px
+    
