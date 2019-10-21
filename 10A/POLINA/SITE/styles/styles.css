@@ -3,20 +3,25 @@ body {
 }
 
 h1{
-    color: greenyellow;
-    font-size: 54px;
-    background-color: goldenrod
+    color: aquamarine;
+    font-size: 100spx;
+    background-color: gold
     font-family: 'Mansalva', cursive;
 }
 
 p {
-    color: blue;
+    font-size: 100spx;
+    color:blue (102, 13, 175);
 }
-
+.red {
+    font-size: 30px;
+    font-size: 30px;
+    font-size: 30px;
+}
 img {
-width: 200px;
-height: 200px;
+width: 300px;
+height: 300px;
 
-border-radius: 50%;
+border-radius: 100%;
 box-shadow: 10px 10px 10px gold;
-}
+}с
