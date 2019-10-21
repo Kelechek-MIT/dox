@@ -1,7 +1,23 @@
+html{
+    height: 100%;
+    overflow: hidden;
+}
 body{
     margin: 0%;
+    padding: 0%;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow: scroll;
+    font-family: Modak', cursive;
 }
-.div1{
-    min-height: 400px;
-    background: transparent;
+header{
+    box-sizing: border-box;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 10%;
+    transform-style: inherit;
+    width: 100vw;
+}
+header::before{
+    content: ;
 }
