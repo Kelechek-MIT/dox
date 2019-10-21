@@ -48,6 +48,19 @@ ul li {
     box-shadow: 10px 10px 20px grey;
 
 }
+
+.ava:hover {
+    content: url(../images/angry.jpeg);
+    height: 70%;
+    transform: scaleY(3.0);
+    transform: scaleX(3.0);
+}  
+
+.background:hover {
+    content: url(../images/nnn.jpg)
+}
+
+.
 p {
     margin: 10px;
 }
