@@ -6,14 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
-    <header>
-        <h1>Это прсосто parallax</h1>
-        <small>Это маленький parallax</small>
-    </header>
-    
 
 </head>
 <body>
-    
+    <header>
+            <h1 >Это просто parallax</h1>
+            <small >Это маленький parallax</small>
+        </header>
+    <div class="parallax-window" data-parallax="scroll" data-image-src="images/bg1.jpg">
+        <img src="images/bg1.jpg";>
+    </div>
+    <div class="parallax-window">
+            <div class="parallax-slider">
+                    <img src="images/bg1.jpg" srcset="images/bg1.jpg 400w, images/bg1.jpg 800w, images/bg1.jpg 1200w" sizes="100vw">
+              <span style="position:absolute; top: 400px; left: 400px;">Some Text</span>
+              <p>Some other Content</p>
+            </div>
+          </div>
 </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </html>
