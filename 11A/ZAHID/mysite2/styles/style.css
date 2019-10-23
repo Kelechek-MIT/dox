@@ -4,34 +4,20 @@ body{
 }
 
 .mh {
-    font-family: 'Mansalva', cursive;
+    font-family: 'Turret Road', cursive;
     font-size: 100px;
     text-shadow: 4px 4px 30px rgb(121, 92, 92);
     margin-top: 0;
 }
-
-.outer-div {
-    height:400px; 
-    overflow: hidden;
-}
 .cover{
-
-    height:400px;
-    background: url(../images/cover.jpg) ; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: all 0.5s ease;
-}
-.cover:hover{
-    height:400px;
-    background: url(../images/cover2.jpg) ; 
+    
+    height:400px; 
+    background: url(../images/ihtr.jpg); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  transform: scale(1.2)
+    
 }
 .block {
     font-size: 100px;
@@ -61,6 +47,9 @@ ul li {
     border-radius: 50%;
     box-shadow: 10px 10px 20px grey;
 
+}
+.ava:hover{
+content:url(../images/ImpressiveMildElephant-max-1mb.gif)
 }
 p {
     margin: 10px;

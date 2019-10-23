@@ -4,34 +4,21 @@ body{
 }
 
 .mh {
-    font-family: 'Mansalva', cursive;
+    color: pink;
+    font-family: 'Press Start 2P', cursive;
     font-size: 100px;
-    text-shadow: 4px 4px 30px rgb(121, 92, 92);
+    text-shadow: 4px 7px 30px rgb(236, 181, 218);
     margin-top: 0;
 }
-
-.outer-div {
-    height:400px; 
-    overflow: hidden;
-}
 .cover{
-
-    height:400px;
+    
+    height:400px; 
     background: url(../images/cover.jpg) ; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    transition: all 0.5s ease;
-}
-.cover:hover{
-    height:400px;
-    background: url(../images/cover2.jpg) ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  transform: scale(1.2)
+    
 }
 .block {
     font-size: 100px;
