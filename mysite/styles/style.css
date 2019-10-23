@@ -9,15 +9,29 @@ body{
     text-shadow: 4px 4px 30px rgb(121, 92, 92);
     margin-top: 0;
 }
-.US{
-    
-    height:200px; 
-    background: url(../images/US.jpg) ; 
-  -webkit-background-size: US;
-  -moz-background-size: US;
-  -o-background-size: US;
-  background-size: US;
-    
+
+.outer-div {
+    height:400px; 
+    overflow: hidden;
+}
+.cover{
+
+    height:400px;
+    background: url(../images/cover.jpg) ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+.cover:hover{
+    height:400px;
+    background: url(../images/cover2.jpg) ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transform: scale(1.2)
 }
 .block {
     font-size: 100px;
@@ -34,9 +48,9 @@ body{
 ul li {
     list-style-type: none;
 }
-.US {
+.ava {
     position: relative;
-    top: 10px;
+    top: -100px;
 
     display: block;
     margin: 0 auto;
@@ -46,14 +60,7 @@ ul li {
 
     border-radius: 50%;
     box-shadow: 10px 10px 20px grey;
-    transition: all 2s;
 
-}
-.US:hover{
-    content: url(../images/Uk.png);
-}
-.US:hover {
-    transform: rotate(360deg);
 }
 p {
     margin: 10px;
