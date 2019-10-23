@@ -9,7 +9,7 @@ body{
     text-shadow: 4px 4px 30px rgb(121, 92, 92);
     margin-top: 0;
 }
-.US{
+.TAIR{
     
     height:200px; 
     background: url(../images/US.jpg) ; 
@@ -34,7 +34,7 @@ body{
 ul li {
     list-style-type: none;
 }
-.US {
+.TAIR{
     position: relative;
     top: 10px;
 
@@ -49,10 +49,10 @@ ul li {
     transition: all 2s;
 
 }
-.US:hover{
-    content: url(../images/Uk.png);
+.TAIR:hover{
+    contenSt: url(../images/Uk.png);
 }
-.US:hover {
+.TAIR:hover {
     transform: rotate(360deg);
 }
 p {
