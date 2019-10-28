@@ -4,7 +4,7 @@ body{
 }
 
 .mh {
-    font-family: 'Mansalva', cursive;
+    font-family: 'Open Sans Condensed', cursive;
     font-size: 100px;
     text-shadow: 4px 4px 30px rgb(121, 92, 92);
     margin-top: 0;
@@ -12,12 +12,11 @@ body{
 .cover{
     
     height:400px; 
-    background: url(../images/1337.jpg) ; 
+    background: url(../images/cover.jpg) ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  top: +300px;
     
 }
 .block {
@@ -36,7 +35,6 @@ ul li {
     list-style-type: none;
 }
 .ava {
-    list-style-image;
     position: relative;
     top: -100px;
 
@@ -53,3 +51,41 @@ ul li {
 p {
     margin: 10px;
 }
+@media only screen and (max-width: 600px) {
+    
+   
+    .ava{
+    width: 170px;
+    height: 170px;
+    }
+    .cover{
+        height: 300px;
+    }
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+  
+
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  } 
+  

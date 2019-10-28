@@ -9,15 +9,14 @@ body{
     text-shadow: 4px 4px 30px rgb(121, 92, 92);
     margin-top: 0;
 }
-.cover{
+.TAIR{
     
-    height:400px; 
-    background: url(../images/1337.jpg) ; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  top: +300px;
+    height:200px; 
+    background: url(../images/US.jpg) ; 
+  -webkit-background-size: US;
+  -moz-background-size: US;
+  -o-background-size: US;
+  background-size: US;
     
 }
 .block {
@@ -35,10 +34,9 @@ body{
 ul li {
     list-style-type: none;
 }
-.ava {
-    list-style-image;
+.TAIR{
     position: relative;
-    top: -100px;
+    top: 10px;
 
     display: block;
     margin: 0 auto;
@@ -48,7 +46,14 @@ ul li {
 
     border-radius: 50%;
     box-shadow: 10px 10px 20px grey;
+    transition: all 2s;
 
+}
+.TAIR:hover{
+    contenSt: url(../images/Uk.png);
+}
+.TAIR:hover {
+    transform: rotate(360deg);
 }
 p {
     margin: 10px;
