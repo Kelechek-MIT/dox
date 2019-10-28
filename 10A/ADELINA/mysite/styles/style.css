@@ -64,3 +64,24 @@ ul li {
 p {
     margin: 10px;
 }
+
+@media screen and(max-width: 750px){
+.ava{
+    position: relative;
+    top: -100px;
+
+    display: block;
+    margin: 0 auto;
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px blue;
+
+}
+
+}
+
+    
+
