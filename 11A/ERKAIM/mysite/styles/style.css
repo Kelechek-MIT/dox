@@ -1,29 +1,46 @@
 body{
     
     text-align: center;
-    background-color: aquamarine
 }
-
+ul li{
+    display: inline;
+}
+li{
+    padding: 50px;  
+    }
+    ul{
+        background-color: teal;
+        margin: 0;
+        padding: 0;
+    }
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 .mh {
-    font-family: 'Open Sans Condensed', cursive;
+    font-family: 'Mansalva', cursive;
     font-size: 100px;
-    text-shadow: 4px 4px 30px rgb(80, 158, 172);
+    text-shadow: 4px 4px 30px rgb(121, 92, 92);
     margin-top: 0;
 }
-.cover{
-    
+
+.outer-div {
     height:400px; 
-    background: urldownload (1).html() ; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   transition: all 0.5s ease;
-    
+    overflow: hidden;
+}
+.cover{
+
+    height:400px;
+    background: url(../images/cover.jpg) ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: all 0.5s ease;
 }
 .cover:hover{
-    height:400px; 
-    background: url(../images/cover — копия.jpg) ; 
+    height:400px;
+    background: url(../images/cover2.jpg) ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -57,14 +74,23 @@ ul li {
 
     border-radius: 50%;
     box-shadow: 10px 10px 20px grey;
-    transition: width 20s, height 40s transform 2s;
-}
-.ava:hover{
-   width: 100px;
-   transform: rotate(180deg);
-   height: 300px
-}
+
 }
 p {
     margin: 10px;
 }
+@media only screen and (max-width: 510px) {
+   .ava {
+    width: 100px;
+    height: 100px;
+    }
+    .cover{
+        height:100px;
+    }
+    .cover:hover{
+        height:100px; 
+    }
+    li{
+        display: block;
+    }
+  }
