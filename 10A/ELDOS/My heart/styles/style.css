@@ -12,11 +12,12 @@ body{
 .cover{
     
     height:400px; 
-    background: url(../images/cover.jpg) ; 
+    background: url(../images/1337.jpg) ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  top: +300px;
     
 }
 .block {
@@ -35,6 +36,7 @@ ul li {
     list-style-type: none;
 }
 .ava {
+    list-style-image;
     position: relative;
     top: -100px;
 
