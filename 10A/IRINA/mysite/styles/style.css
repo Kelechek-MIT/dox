@@ -4,7 +4,7 @@ body{
 }
 
 .mh {
-    color: pink;
+    color: plum;
     font-family: 'Press Start 2P', cursive;
     font-size: 100px;
     text-shadow: 4px 7px 30px rgb(236, 181, 218);
@@ -51,4 +51,24 @@ ul li {
 }
 p {
     margin: 10px;
+}
+
+.ava:hover {
+
+    content: url(../images/tenor.gif);
+}
+
+ul li {
+    display: inline;
+}
+li a{
+    color: plum;
+    text-decoration: none;
+    padding: 20px;
+    
+  }
+
+li a:hover {
+    color: white;
+    background-color: plum;
 }
