@@ -6,37 +6,18 @@ body{
 .mh {
     font-family: 'Mansalva', cursive;
     font-size: 100px;
-    text-shadow: 4px 4px 30px rgb(121, 92, 92);
+    text-shadow: 4px 4px 30px rgb(143, 16, 228);
     margin-top: 0;
 }
-.cover{
-    
-    height:400px; 
-    background: url(../images/cover.jpg) ; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    
-}
-.block {
-    font-size: 100px;
-    font-family: 'Tangerine', serif;   
-    margin: 50px 20px; 
-  }
-
 .blcontent {
     font-family: 'Indie Flower', cursive;
     font-size: 32px;
     margin: 10px 100px;
     
 }
-ul li {
-    list-style-type: none;
-}
-.ava {
+.aizhana {
     position: relative;
-    top: -100px;
+    top: 0px;
 
     display: block;
     margin: 0 auto;
@@ -51,3 +32,18 @@ ul li {
 p {
     margin: 10px;
 }
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: rgb(210, 223, 29);
+    }
+     .aizhana  { 
+         width: 100px;
+        height: 100px;
+        box-shadow: 4px 4px 10px grey;}
+        .mh {
+            font-size: 20px;
+        }
+        .blcontent{font-size: 10px;
+        }
+
+    }

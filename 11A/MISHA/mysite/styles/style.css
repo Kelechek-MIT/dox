@@ -5,9 +5,9 @@ body{
 
 .mh {
     font-family: 'Open Sans Condensed', cursive;
-    font-size: 100px;
-    text-shadow: 4px 4px 30px rgb(121, 92, 92);
-    margin-top: 0;
+    font-size: 30px;
+    text-shadow: 40px 40px 50px rgb(98, 0, 255);
+    margin-top: 5;
 }
 .cover{
     
@@ -20,15 +20,15 @@ body{
     
 }
 .block {
-    font-size: 100px;
+    font-size: 50px;
     font-family: 'Tangerine', serif;   
-    margin: 50px 20px; 
+    margin: 100px 200px; 
   }
 
 .blcontent {
     font-family: 'Indie Flower', cursive;
-    font-size: 32px;
-    margin: 10px 100px;
+    font-size: 50px;
+    margin: 10px 50px;
     
 }
 ul li {
@@ -36,18 +36,30 @@ ul li {
 }
 .ava {
     position: relative;
-    top: -100px;
+    top: -30spx;
 
     display: block;
     margin: 0 auto;
 
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500sspx;
 
     border-radius: 50%;
-    box-shadow: 10px 10px 20px grey;
+    box-shadow: 30px 30px 40px rgb(255, 0, 0);
 
 }
 p {
-    margin: 10px;
+    margin: 50px;
 }
+@media only screen and (max-width: 600px) {
+    .ava {
+
+    
+        width: 200px;
+        height: 200px;
+    
+   
+    
+    }
+  }
+    
